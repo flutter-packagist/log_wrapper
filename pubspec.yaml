@@ -1,5 +1,5 @@
 name: log_wrapper
-description: A new Flutter project.
+description: logger wrapper for flutter
 version: 1.0.0
 homepage: https://github.com/flutter-packagist/log_wrapper
 
