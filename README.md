@@ -4,6 +4,18 @@
 
 ## Getting Started
 
+To use this plugin, add network as a dependency in your pubspec.yaml file.
+
+``` yaml
+dependencies:
+  log_wrapper:
+    git:
+      url: https://github.com/flutter-packagist/network.git
+      ref: 1.0.0
+```
+
+## Example
+
 ``` dart
 logD("This is a debug message");
 
