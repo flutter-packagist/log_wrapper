@@ -39,7 +39,7 @@ class CustomPrinter extends LogPrinter {
     Level.info: 'ℹ️ ',
     Level.warning: '⚠️ ',
     Level.error: '⛔ ',
-    Level.fatal: '💢 ',
+    Level.fatal: '🟢 ',
   };
 
   /// Matches a stacktrace line as generated on Android/iOS devices.
