@@ -22,7 +22,9 @@ class CustomOutput extends LogOutput {
       if (!file.existsSync()) await file.create(recursive: true);
       _sink = file.openWrite(mode: FileMode.append, encoding: utf8);
     }
-    completer.complete();
+    if (!completer.isCompleted) {
+      completer.complete();
+    }
   }
 
   @override
